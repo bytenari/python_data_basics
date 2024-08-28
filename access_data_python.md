@@ -33,7 +33,9 @@ df.to_sql(table_name, conn, if_exists = 'replace', index =False)
 print('Table is ready')
 ```
 if_exists = 'fail'	Default. The command doesn't work if a table with the same name exists in the database.
+
 if_exists = 'replace'	The command replaces the existing table in the database with the same name.
+
 if_exists = 'append'	The command appends the new data to the existing table with the same name.
 
 **Running basic queries on data**
