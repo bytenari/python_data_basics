@@ -1,3 +1,8 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=#171515&height=200&section=header&text=HelloWorld!%20!&fontSize=50"/>
+
+![header](https://capsule-render.vercel.app/api?type=$waving&color=auto&height=$200&section=header&text=$HelloWorld!%20!&fontSize=$50)
+
+
 Start with IDE
 1. Visual Studio Code
   pros: familiar, easy to handle with other languages, easy to update on Github
@@ -14,12 +19,14 @@ Command-line commands
 @bytenari:/home/project$ python3.11 -m pip install numpy
 
 ExampleCode1.py
+'''
 import numpy as np
 
 a = np.array([1, 2])
 b = np.array([3, 4])
 c = a + b
 print(c)
+'''
 
 To get the result of ExampleCode1, 
 @bytenari:/home/project$ python3.11 ExampleCode1.py
